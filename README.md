@@ -18,3 +18,11 @@ Además deberán de hacerse las siguientes validaciones mostrando un cuadro de d
 - Validar que la longitud del nombre sea al menos de 5 caracteres.
 - Validar que no aparece ningún símbolo numérico en el campo nombre o apellidos.
  
+## Pruebas (Testing)
+
+|ID Caso Prueba|Descripción Caso de Prueba                    |Entrada                    |Salida Esperada                                                                    |Resultado   |
+|--------------|----------------------------------------------|---------------------------|-----------------------------------------------------------------------------------|------------|
+|01            |Comprobación del botón "saluda"               |N/A                        |Aparece una ventana modal saludando con el nombre y apellidos introducidos                     |OK/No cumple|
+|02            |Validación de campos vacíos                   |sin texto                  |Aparece una ventana modal indicando que los campos no pueden estar vacíos          |OK/No cumple|
+|03            |Comprobación longitud de campos <5            |Texto <5                   |Aparece una ventana modal indicando que el nombre o apellidos no puede ser menor de 5 |OK/No cumple|
+|04            |Comprobación sin símbolos numéricos           |Texto con símbolo numérico |Aparece una ventana modal indicando que no puede haber símbolos numéricos          |OK/No cumple|
