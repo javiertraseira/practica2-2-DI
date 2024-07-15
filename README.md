@@ -18,7 +18,9 @@ Además deberán de hacerse las siguientes validaciones mostrando un cuadro de d
 - Validar que la longitud del nombre sea al menos de 5 caracteres.
 - Validar que no aparece ningún símbolo numérico en el campo nombre o apellidos.
  
-## Pruebas (Testing)
+## Pruebas 1 (Testing)
+
+En todos los ejercicios debe de rellenarse una tabla con **casos de prueba** mínimos que cumpla el ejercicio:
 
 |ID Caso Prueba|Descripción Caso de Prueba                    |Entrada                    |Salida Esperada                                                                    |Resultado   |
 |--------------|----------------------------------------------|---------------------------|-----------------------------------------------------------------------------------|------------|
