@@ -1,5 +1,7 @@
 # Práctica 2.2 JFrame saludo inicial
 
+Crea un proyecto inicial llamado practica2-2 en la carpeta SOL de github y utiliza *branches* para delimitar los cambios que vayas haciendo.
+
 ## Parte 1
 
 Crea una ventana que muestre un icono de saludo, pida el nombre de usuario y un botón **saluda**.   
@@ -20,7 +22,7 @@ Además deberán de hacerse las siguientes validaciones mostrando un cuadro de d
  
 ## Pruebas 1 (Testing)
 
-En todos los ejercicios debe de rellenarse una tabla con **casos de prueba** mínimos que cumpla el ejercicio:
+En todos los ejercicios debe de rellenarse una tabla con **casos de prueba** mínimos que cumpla el ejercicio dentro de carpeta SOL:
 
 |ID Caso Prueba|Descripción Caso de Prueba                    |Entrada                    |Salida Esperada                                                                    |Resultado   |
 |--------------|----------------------------------------------|---------------------------|-----------------------------------------------------------------------------------|------------|
