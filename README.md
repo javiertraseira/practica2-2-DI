@@ -17,8 +17,10 @@ Mejorar el ejercicio anterior para que además de nombre, haya otro campo de ape
 
 Además deberán de hacerse las siguientes **validaciones** mostrando un cuadro de diálogo de error en caso de que no se cumplan:
 - Validar que ninguno de los dos campos esté vacío.
-- Validar que la longitud del nombre sea al menos de 5 caracteres.
-- Validar que no aparece ningún símbolo numérico en el campo nombre o apellidos.
+- Validar que la longitud del nombre sea al menos de 5 caracteres*.
+- Validar que no aparece ningún símbolo numérico en el campo nombre o apellidos*.
+
+  \* (ayúdate del método *matches* de la case *String*)
  
 ## Pruebas 1 (Testing)
 
