@@ -5,7 +5,7 @@ Crea un proyecto inicial llamado *practica2-2* en la carpeta SOL de github. Util
 ## Parte 1
 
 Crea una ventana que muestre un icono de saludo, pida el nombre de usuario y un botón **saluda**.   
-Al pulsarlo deberá saludar por el nombre contenido en dicho campo.
+Al pulsarlo deberá saludar por el nombre contenido en dicho campo usando un *JOptionPane.showMessageDialog*.
 
 Modifica las propiedades de la ventana para que no se pueda redimensionar y se abra en el medio de la pantalla.
 
@@ -15,7 +15,7 @@ Modifica las propiedades de la ventana para que no se pueda redimensionar y se a
 
 Mejorar el ejercicio anterior para que además de nombre, haya otro campo de apellidos del que muestre el saludo *nombre+apellidos* en la ventana posterior. Después de saludar deberán borrarse los campos introducidos. 
 
-Además deberán de hacerse las siguientes validaciones mostrando un cuadro de diálogo de error en caso de que no se cumplan:
+Además deberán de hacerse las siguientes **validaciones** mostrando un cuadro de diálogo de error en caso de que no se cumplan:
 - Validar que ninguno de los dos campos esté vacío.
 - Validar que la longitud del nombre sea al menos de 5 caracteres.
 - Validar que no aparece ningún símbolo numérico en el campo nombre o apellidos.
