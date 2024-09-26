@@ -24,7 +24,7 @@ Además deberán de hacerse las siguientes **validaciones** mostrando un cuadro 
  
 ## Pruebas 1 (Testing)
 
-En todos los ejercicios debe de rellenarse una tabla con **casos de prueba** mínimos que cumpla el ejercicio dentro de carpeta SOL:
+En todos los ejercicios debe de rellenarse una tabla con **casos de prueba** mínimos que cumpla el ejercicio dentro de la carpeta llamada *TEST* del repositorio:
 
 |ID Caso Prueba|Descripción Caso de Prueba                    |Entrada                    |Salida Esperada                                                                    |Resultado   |
 |--------------|----------------------------------------------|---------------------------|-----------------------------------------------------------------------------------|------------|
