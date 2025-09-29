@@ -1,4 +1,4 @@
-# Práctica 2.2 JFrame saludo inicial
+# Práctica 2.2 Ventana saludo inicial
 
 Crea un proyecto inicial llamado *practica2-2* en la carpeta SOL de github. Utiliza *branches* para delimitar los cambios que vayas haciendo.
 
