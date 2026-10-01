@@ -67,17 +67,17 @@ Configura además las **propiedades** de la ventana para que:
 
 ![](media/5ab796c13203d3cb2f130b0b044eeb91.png) ![](media/ea9b360b73b857d43ceae72ead2b5520.png)
 
-### Modificación de propiedades
+**Modificación de propiedades**
 
 Desde el editor visual modifica algunas propiedades de los componentes, como por ejemplo:
 
-- texto mostrado;
-- fuente;
-- alineación;
-- tamaño;
-- tooltip;
-- icono;
-- título de la ventana.
+- texto mostrado
+- fuente
+- alineación
+- tamaño
+- tooltip
+- icono
+- título de la ventana
 
 Comprueba qué propiedades modificadas desde el editor visual generan cambios en el código Java.
 
