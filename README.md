@@ -204,6 +204,8 @@ Configura la aplicación para que al iniciarse utilice: **FlatLaf Light**
 
 La configuración deberá realizarse antes de crear la ventana principal.
 
+![](media/combobox_flatlaf.png)
+
 **Cambio de tema en tiempo de ejecución**
 
 Añade un nuevo `JComboBox` que permita seleccionar entre:
