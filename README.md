@@ -186,21 +186,21 @@ El botón **Borrar todos** deberá eliminar completamente el contenido del `JCom
 
 Hasta este momento la aplicación utilizará el aspecto visual proporcionado por Swing.
 
-Ahora vamos a añadir una dependencia externa utilizando Maven.
+Ahora vamos a utilizar **Maven** para añadir una librería externa al proyecto. En este caso utilizaremos **FlatLaf**, una librería que permite aplicar estilos visuales modernos a las aplicaciones Java Swing.
 
-**Añadir FlatLaf**
+**Buscar y añadir la dependencia de FlatLaf**
 
-Busca en el repositorio oficial de Maven la dependencia correspondiente a la librería: **FlatLaf**
+Accede al repositorio de librerías de Maven: https://mvnrepository.com/
 
-Añádela al fichero:
+En el buscador escribe FlatLaf. Entra en el más reciente y busca una versión estable. Dentro encontrarás el fragmento XML que copiar en el fichero `pom.xml`, comenzando por:
 
 ```text
-pom.xml
+<dependency>
+ ...
+<dependency>
 ```
 
-Comprueba posteriormente que Maven descarga correctamente la dependencia.
-
-Configura la aplicación para que al iniciarse utilice: **FlatLaf Light**
+Comprueba posteriormente que Maven descarga correctamente la dependencia y configura la aplicación para que al iniciarse utilice: **FlatLaf Light**
 
 La configuración deberá realizarse antes de crear la ventana principal.
 
