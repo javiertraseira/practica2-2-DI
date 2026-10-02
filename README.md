@@ -84,14 +84,14 @@ Comprueba qué propiedades modificadas desde el editor visual generan cambios en
 
 ## Parte 2 Formulario y validación de datos
 
-Mejora el ejercicio anterior para que además de nombre, haya otro campo de apellidos del que muestre el saludo *nombre+apellidos* en la ventana posterior. 
+Mejora el ejercicio anterior para que además de nombre, haya otro campo de **apellidos** del que muestre el saludo *nombre+apellidos* en la ventana de diálogo posterior. 
 
 Después de saludar deberán borrarse los campos introducidos. 
 
 Antes de mostrar el saludo deberán de hacerse las siguientes **validaciones**:
 - Validar que ninguno de los dos campos esté vacío.
-- Validar que la longitud del nombre sea al menos de 5 caracteres*.
-- Validar que no aparece ningún símbolo numérico en el campo nombre o apellidos*.
+- Validar que la longitud del nombre sea al menos de 5 caracteres.
+- Validar que no aparece ningún símbolo numérico en el campo nombre o apellidos.
 
 Puedes ayudarte de métodos de la clase `String`, como:
 
@@ -105,7 +105,7 @@ Cuando se produzca un error deberá mostrarse un cuadro de diálogo mediante `JO
 
 Además:
 
-- El foco deberá situarse sobre el campo que contiene el error;
+- El foco deberá situarse sobre el campo que contiene el error.
 - No se continuará con el resto del procesamiento hasta que el dato sea válido.
 
 Puedes utilizar:
@@ -124,11 +124,11 @@ Añade los siguientes componentes:
 - un `JComboBox` para seleccionar el curso:
   - Primero
   - Segundo
-- un `JTextField` para escribir el nombre de un módulo;
-- un `JComboBox` que almacenará los módulos añadidos;
-- un botón **Agregar módulo**;
-- un botón **Agregar todos**;
-- un botón **Eliminar módulo**;
+- un `JTextField` para escribir el nombre de un módulo.
+- un `JComboBox` que almacenará los módulos añadidos.
+- un botón **Agregar módulo**.
+- un botón **Agregar todos**.
+- un botón **Eliminar módulo**.
 - un botón **Borrar todos**.
 
 **Agregar módulos manualmente**
